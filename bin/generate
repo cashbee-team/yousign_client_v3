@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli:v7.3.0 generate \
+    -i /local/openapi.json \
+    -g ruby \
+    -c /local/config.json \
+    -o /local
+
+rubocop -A

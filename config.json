@@ -1,0 +1,11 @@
+{
+  "gemName": "yousign_client_v3",
+  "gemAuthor": "Cashbee",
+  "gemAuthorEmail": "developers@cashbee.fr",
+  "gemSummary": "Yousign Client API V3",
+  "gemDescription": "Yousign Client API V3",
+  "gemHomepage": "https://github.com/cashbee-team/yousign_client_v3",
+  "moduleName": "YousignClientV3",
+  "gemLicense": "",
+  "gemVersion": "1.0.0"
+}

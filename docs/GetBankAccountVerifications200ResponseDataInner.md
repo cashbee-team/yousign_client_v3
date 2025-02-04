@@ -1,0 +1,26 @@
+# YousignClientV3::GetBankAccountVerifications200ResponseDataInner
+
+## Properties
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **id** | **String** | The unique identifier for a resource. | [optional] |
+| **status** | [**BankAccountVerificationStatus**](BankAccountVerificationStatus.md) |  | [optional] |
+| **status_codes** | **Array&lt;Integer&gt;** | List of response codes. | [optional] |
+| **created_at** | **Time** |  | [optional] |
+| **updated_at** | **Time** |  | [optional] |
+
+## Example
+
+```ruby
+require 'yousign_client_v3'
+
+instance = YousignClientV3::GetBankAccountVerifications200ResponseDataInner.new(
+  id: 9a93d3b5-fb3b-4abf-9e70-26315b33506c,
+  status: null,
+  status_codes: [1604, 1611],
+  created_at: 2024-01-18T22:59Z,
+  updated_at: 2024-01-18T22:59Z
+)
+```
+
