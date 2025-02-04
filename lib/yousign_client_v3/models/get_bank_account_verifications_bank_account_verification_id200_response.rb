@@ -68,7 +68,7 @@ module YousignClientV3
         :'id' => :'String',
         :'status' => :'BankAccountVerificationStatus',
         :'status_codes' => :'Array<Integer>',
-        :'extracted_from_document' => :'GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument'
+        :'extracted_from_document' => :'GetBankAccountVerificationsExtractedFromDocument'
       }
     end
 

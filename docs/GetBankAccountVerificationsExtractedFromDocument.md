@@ -1,4 +1,4 @@
-# YousignClientV3::GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument
+# YousignClientV3::GetBankAccountVerificationsExtractedFromDocument
 
 ## Properties
 
@@ -12,7 +12,7 @@
 ```ruby
 require 'yousign_client_v3'
 
-instance = YousignClientV3::GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument.new(
+instance = YousignClientV3::GetBankAccountVerificationsExtractedFromDocument.new(
   iban: FR7610278030060001478474080,
   bic: CMCIFR2A
 )

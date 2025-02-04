@@ -36529,7 +36529,7 @@
         },
         "type": "object"
       },
-      "get_bank_account_verifications_bankAccountVerificationId_200_response_allOf_extracted_from_document": {
+      "get_bank_account_verifications_extracted_from_document": {
         "properties": {
           "iban": {
             "$ref": "#/components/schemas/NullableIBAN"
@@ -36548,7 +36548,7 @@
           {
             "properties": {
               "extracted_from_document": {
-                "$ref": "#/components/schemas/get_bank_account_verifications_bankAccountVerificationId_200_response_allOf_extracted_from_document"
+                "$ref": "#/components/schemas/get_bank_account_verifications_extracted_from_document"
               }
             },
             "type": "object"

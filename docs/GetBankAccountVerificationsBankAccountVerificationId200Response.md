@@ -7,7 +7,7 @@
 | **id** | **String** | The unique identifier for a resource. | [optional] |
 | **status** | [**BankAccountVerificationStatus**](BankAccountVerificationStatus.md) |  | [optional] |
 | **status_codes** | **Array&lt;Integer&gt;** | List of response codes. | [optional] |
-| **extracted_from_document** | [**GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument**](GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument.md) |  | [optional] |
+| **extracted_from_document** | [**GetBankAccountVerificationsExtractedFromDocument**](GetBankAccountVerificationsExtractedFromDocument.md) |  | [optional] |
 
 ## Example
 

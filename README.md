@@ -305,7 +305,7 @@ Class | Method | HTTP request | Description
  - [YousignClientV3::GetBankAccountVerifications200Response](docs/GetBankAccountVerifications200Response.md)
  - [YousignClientV3::GetBankAccountVerifications200ResponseDataInner](docs/GetBankAccountVerifications200ResponseDataInner.md)
  - [YousignClientV3::GetBankAccountVerificationsBankAccountVerificationId200Response](docs/GetBankAccountVerificationsBankAccountVerificationId200Response.md)
- - [YousignClientV3::GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument](docs/GetBankAccountVerificationsBankAccountVerificationId200ResponseAllOfExtractedFromDocument.md)
+ - [YousignClientV3::GetBankAccountVerificationsExtractedFromDocument](docs/GetBankAccountVerificationsExtractedFromDocument.md)
  - [YousignClientV3::GetConsumptionAddon200Response](docs/GetConsumptionAddon200Response.md)
  - [YousignClientV3::GetConsumptionDetail200Response](docs/GetConsumptionDetail200Response.md)
  - [YousignClientV3::GetContacts200Response](docs/GetContacts200Response.md)
