@@ -15698,11 +15698,6 @@
               "schema": {
                 "$ref": "#/components/schemas/CreateDocumentFromMultipart"
               }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateDocumentFromJson"
-              }
             }
           },
           "description": "Sending file with metadata"
