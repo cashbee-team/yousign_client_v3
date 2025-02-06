@@ -145,7 +145,7 @@ module YousignClientV3
         data = {}
         form_params.each do |key, value|
           case value
-          when ::File, ::Array, nil
+          when ::File, ::Array, ::Tempfile, nil
             # let typhoeus handle File, Array and nil parameters
             data[key] = value
           else

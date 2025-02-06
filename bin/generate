@@ -4,6 +4,7 @@ docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli:v7.3.0 gen
     -i /local/openapi.json \
     -g ruby \
     -c /local/config.json \
-    -o /local
+    -o /local \
+    -t /local/.openapi-generator/custom_template
 
 rubocop -A
