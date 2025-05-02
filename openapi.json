@@ -38606,7 +38606,10 @@
             "type": "string"
           },
           {
-            "type": "number"
+            "type": "float"
+          },
+          {
+            "type": "integer"
           },
           {
             "type": "boolean"

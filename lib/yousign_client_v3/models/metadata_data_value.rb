@@ -21,6 +21,7 @@ module YousignClientV3
         [
           :'Boolean',
           :'Float',
+          :'Integer',
           :'String'
         ]
       end
