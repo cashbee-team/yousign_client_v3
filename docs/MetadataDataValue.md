@@ -16,6 +16,7 @@ YousignClientV3::MetadataDataValue.openapi_one_of
 # [
 #   :'Boolean',
 #   :'Float',
+#   :'Integer',
 #   :'String'
 # ]
 ```
@@ -46,6 +47,7 @@ YousignClientV3::MetadataDataValue.build(data_that_doesnt_match)
 
 - `Boolean`
 - `Float`
+- `Integer`
 - `String`
 - `nil` (if no type matches)
 
