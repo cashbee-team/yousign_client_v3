@@ -32,8 +32,9 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
 
-  s.files         = `find *`.split("\n").uniq.sort.select { |f| !f.empty? }
-  s.test_files    = `find spec/*`.split("\n")
+  s.files = Dir.chdir(File.expand_path(__dir__)) do
+    Dir['{docs,lib}/**/*', 'README.md']
+  end
   s.executables   = []
   s.require_paths = ["lib"]
 end

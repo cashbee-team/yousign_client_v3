@@ -7,4 +7,4 @@ docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli:v7.11.0 ge
     -o /local \
     -t /local/.openapi-generator/custom_template
 
-rubocop -c "${PWD}/.rubocop.yml" -A
+rubocop -A
