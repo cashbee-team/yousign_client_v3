@@ -269,8 +269,7 @@ module YousignClientV3
     end
 
     def operation_server_settings
-      {
-      }
+      {}
     end
 
     # Returns URL based on server settings
@@ -306,7 +305,5 @@ module YousignClientV3
 
       url
     end
-
-
   end
 end

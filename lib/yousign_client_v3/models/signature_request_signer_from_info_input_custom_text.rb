@@ -335,7 +335,5 @@ module YousignClientV3
         value
       end
     end
-
   end
-
 end
