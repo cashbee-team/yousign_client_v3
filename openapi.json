@@ -33406,6 +33406,13 @@
             "nullable": true,
             "type": "string",
             "example": null
+          },
+          "document_id": {
+            "description": "Link the Signer Consent Request to a given Document by its id.",
+            "format": "uuid",
+            "nullable": true,
+            "type": "string",
+            "example": null
           }
         },
         "required": [

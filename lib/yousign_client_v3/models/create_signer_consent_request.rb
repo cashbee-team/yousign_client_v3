@@ -29,6 +29,9 @@ module YousignClientV3
     # Insert just after the position of the specified Signer Consent Request id
     attr_accessor :insert_after_id
 
+    # Link the Signer Consent Request to a given Document by its id.
+    attr_accessor :document_id
+
     class EnumAttributeValidator
       attr_reader :datatype
       attr_reader :allowable_values
@@ -58,7 +61,8 @@ module YousignClientV3
         :'settings' => :'settings',
         :'optional' => :'optional',
         :'signer_ids' => :'signer_ids',
-        :'insert_after_id' => :'insert_after_id'
+        :'insert_after_id' => :'insert_after_id',
+        :'document_id' => :'document_id'
       }
     end
 
@@ -74,14 +78,16 @@ module YousignClientV3
         :'settings' => :'CreateSignerConsentRequestSettings',
         :'optional' => :'Boolean',
         :'signer_ids' => :'Array<String>',
-        :'insert_after_id' => :'String'
+        :'insert_after_id' => :'String',
+        :'document_id' => :'String'
       }
     end
 
     # List of attributes with nullable: true
     def self.openapi_nullable
       Set.new([
-        :'insert_after_id'
+        :'insert_after_id',
+        :'document_id'
       ])
     end
 
@@ -128,6 +134,10 @@ module YousignClientV3
 
       if attributes.key?(:'insert_after_id')
         self.insert_after_id = attributes[:'insert_after_id']
+      end
+
+      if attributes.key?(:'document_id')
+        self.document_id = attributes[:'document_id']
       end
     end
 
@@ -206,7 +216,8 @@ module YousignClientV3
           settings == o.settings &&
           optional == o.optional &&
           signer_ids == o.signer_ids &&
-          insert_after_id == o.insert_after_id
+          insert_after_id == o.insert_after_id &&
+          document_id == o.document_id
     end
 
     # @see the `==` method
@@ -218,7 +229,7 @@ module YousignClientV3
     # Calculates hash code according to all attributes.
     # @return [Integer] Hash code
     def hash
-      [type, settings, optional, signer_ids, insert_after_id].hash
+      [type, settings, optional, signer_ids, insert_after_id, document_id].hash
     end
 
     # Builds the object from hash
@@ -332,7 +343,5 @@ module YousignClientV3
         value
       end
     end
-
   end
-
 end
