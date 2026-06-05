@@ -144,7 +144,7 @@ module YousignClientV3
       form_params['file'] = file
       form_params['workspace_id'] = opts[:'workspace_id'] if !opts[:'workspace_id'].nil?
       form_params['archive_y'] = opts[:'archive_y'] if !opts[:'archive_y'].nil?
-      form_params['tags'] = @api_client.build_collection_param(opts[:'tags'], :csv) if !opts[:'tags'].nil?
+      form_params['tags'] = opts[:'tags'] if !opts[:'tags'].nil?
       form_params['expired_at'] = opts[:'expired_at'] if !opts[:'expired_at'].nil?
 
       # http body (model)
